@@ -1,0 +1,7 @@
+addons/*
+target/*/*.a
+target/*/*.dll
+target/*/*.dylib
+target/*/*.lib
+target/*/*.so
+target/*/*.wasm

@@ -1,0 +1,6 @@
+# Build output
+/target/*
+
+# Non-git hidden file patterns
+.*
+!.git*

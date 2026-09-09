@@ -1,0 +1,14 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+reloadable = true
+
+[libraries]
+linux.debug.x86_64     = "res://addons/debug/lib{ext_name_underscore}.so"
+linux.release.x86_64   = "res://addons/release/lib{ext_name_underscore}.so"
+macos.debug            = "res://addons/debug/lib{ext_name_underscore}.dylib"
+macos.debug.arm64      = "res://addons/debug/lib{ext_name_underscore}.dylib"
+macos.release          = "res://addons/release/lib{ext_name_underscore}.dylib"
+macos.release.arm64    = "res://addons/release/lib{ext_name_underscore}.dylib"
+windows.debug.x86_64   = "res://addons/debug/{ext_name_underscore}.dll"
+windows.release.x86_64 = "res://addons/release/{ext_name_underscore}.dll"
